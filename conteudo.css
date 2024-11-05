@@ -1,6 +1,6 @@
 main{
-    
-    background-color:#ebebea
+    width: 80%;
+    background-color:var(--cinza)
 }
 
 .conteudo{
@@ -9,7 +9,7 @@ main{
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: white;
+    background-color: var(--claro);
     border-radius: 1,5rem;
     margin: 2rem 12rem;
 }   
