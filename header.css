@@ -9,7 +9,7 @@ header  img{
 .title{
     display: flex;
     align-items: center;
-    background-color: #987b5d;
+    background-color: var(--marrom);
     padding-left: 5rem;
 }
 
@@ -17,12 +17,12 @@ header h1{
     width: 100%;
     text-align: center;
     font-size: 1.6rem;
-    color: white;
+    color: var(--claro);
 }
 
 header nav{
 
-    background-color: wheat;
+    background-color: var(--terra);
     height: 5rem;
     padding-left: 6rem;
     display: flex;
@@ -32,6 +32,26 @@ header nav{
 }
 
 nav > a{
-    color: brown;
+    color: var(--marrom_avermelhado);
     font-size: 1.6rem;
+}
+
+/* ============== respnsividade 400px ======================= */
+
+@media ( max-width: 400px) {
+    header{
+        width: 100%;
+    }
+
+    .title{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+    }
+
+    nav > a {
+        font-size: 1.2rem;
+    }
 }
