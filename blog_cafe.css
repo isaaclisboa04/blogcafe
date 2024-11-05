@@ -1,96 +1,53 @@
+@import url(./header.css);
+@import url(./conteudo.css);
+@import url(./footer.css);
+
+
+
+:root{
+    --escuro: black;
+    --claro: white;
+    --marrom: #987b5d;
+    --cinza: #ebebed;
+    --marrom_avermelhado: brown;
+    --terra: wheat;
+
+}
+
+
+
+
+
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    list-style: none;
-}
-#navegacao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 300px;
-    background-color: rgb(152, 123, 93);
-   
-    
-    
-    
-}
-.menu-list{
-    display: flex;
-    list-style: none; 
-    flex-direction: row;
-    
-    
 }
 
-.menu-list > li {
-    padding: 10px 10px;
-    
-    
+html{
+    font-size: 62.5%;
 }
 
-.menu-list >li > a{
-    text-decoration: none;
-    color:white;
+h1, h2, nav > a{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    
-    
+    text-decoration: none;
+    /* font-size: 1.6rem; */
 }
-.img{
-    position: absolute;
-    top: 0px;
-    left: 340px;
-    margin: 0px 20px;
-    height: 50px;
+
+body{
+    /* width: 100vw;  */
     display: flex;
-    
-    
-
-
+    flex-direction: column;
+    align-items: center     ;
 }
 
-.lista{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 300px;
-    background-color:wheat ;
-    color: rgb(178, 34, 34);
-    font-weight: 600;
+/* ====================Header=============================== */
 
-}
 
-.baixo{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-.logo {
-    align-items: center;
-    margin: 0px 0px;
-    height: 600px;
-    display: flex;
-    flex-direction: row;
-    border-radius: 20px;
-    
 
-}
-h1{
-    text-align: center;
-}
-p{
-    margin: 0px 400px;
-    text-align: center;
-    text-align: left;
-}
-.cinza{
-    background-color: rgb(240, 235, 235);
-    padding: 80px;
-    margin: 0px 300px;
-}
-.branca{
-    background-color: white;
-    border-radius: 20px;
+/* ====================Main========================================= */
 
-}
+
+/* ==============footer===================================================== */
+
